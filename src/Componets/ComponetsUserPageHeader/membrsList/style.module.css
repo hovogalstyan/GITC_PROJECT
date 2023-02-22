@@ -1,0 +1,26 @@
+.members_list{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.members_list div{
+    width: 25px;
+    height: 45px;
+}
+
+.members_list div p{
+    width: 35px;
+    height: 35px;
+    background: teal;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 31px;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+}

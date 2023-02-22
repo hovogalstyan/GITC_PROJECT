@@ -1,0 +1,213 @@
+.login{
+    width: 35%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    cursor: pointer;
+    position: relative;
+}
+
+.login form{
+    width: 100%;
+    height: 35vh;
+    padding: 0.3rem 0.4rem;
+    margin-top: 3rem;
+    position: relative;
+}
+.login form .input_style:first-child{
+    margin: 0.5rem 0;
+}
+.login form .input_style{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ffffff;
+    margin:  2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.login form .input_style input{
+    width: 85%;
+    border: none;
+    outline: none;
+    padding: 0 0.3rem;
+    background: none;
+    color: white;
+    transition: all 0.8s;
+    border-left: 1px solid  #ffffff;
+}
+.login form .input_style input::placeholder{
+    color: white;
+    transition: all 0.8s;
+}
+.login form .input_style input:focus{
+   background: white;
+    color: black;
+}
+.login form .input_style input:focus::placeholder{
+    color: black;
+
+}
+.login form .input_style span{
+    color: white;
+    font-size: 21px;
+    transform: translate(10px,4px);
+}
+.login form .input_style:nth-child(1) p{
+  position: absolute;
+  font-size: 13px;
+  color: white;
+  background: red;
+  right: 21rem;
+  top: -2px;
+  width: 300px;
+  padding: 3px 0.2rem;
+}
+.login form .input_style:nth-child(1) p:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 29px;
+    right: -15px;
+    background: red;
+    transform: rotate(133deg);
+    z-index: -1;
+    top: 6px;
+}
+.login form .input_style:nth-child(2) p{
+    position: absolute;
+    background: red;
+    color: white;
+    font-size: 13px;
+    right: 21rem;
+    top: -1px;
+    width: 300px;
+    padding: 3px 0.2rem;
+    max-width: 300px;
+}
+.login form .input_style:nth-child(2) p:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 29px;
+    right: -15px;
+    background: red;
+    transform: rotate(133deg);
+    z-index: -1;
+    top: 6px;
+}
+.login form button{
+     display: block;
+     margin: 0 auto;
+     cursor: pointer;
+     padding: 8px 45px;
+     background: none;
+     border: 1px solid #ffffff;
+    color: white;
+}
+.sing_up{
+    display: block;
+    background: blue;
+    height: 36px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    transform: translateY(2.6rem);
+    transition: all 0.6s;
+    border: 1px solid blue;
+}
+.sing_up:hover{
+    background: none;
+}
+.login  small:hover{
+    background: blue;
+}
+/*start hover*/
+.login:hover{
+   background: linear-gradient(transparent,black);
+}
+
+.icon_block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.icon_block ul{
+    display: flex;
+}
+.icon_block ul li{
+    list-style: none;
+    margin: 0 0.5rem;
+
+}
+.icon_block ul li a{
+    color: white;
+    font-size: 30px;
+}
+.icon_block ul li:hover{
+    transform: scale(1.2);
+}
+.icon_block ul li:hover a{
+    color:  rebeccapurple;
+}
+/*password type style */
+.pass_type{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 8.4rem;
+    left: 0.8rem;
+}
+.pass_type div{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ffffff;
+    position: relative;
+}
+.pass_type div span{
+    color:white;
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    transform: scale(0);
+    transition: all 0.4s;
+}
+.pass_type  p{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.type_active p{
+    color: blue;
+}
+
+.type_active div span {
+    transform: scale(1);
+}
+.error_local{
+    position: absolute;
+    font-size: 13px;
+    background: red;
+    padding: 0.4rem 0.2rem;
+    top: 7rem;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.error_local:before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: red;
+    transform: rotate(136deg);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -7px;
+    z-index: -1;
+}

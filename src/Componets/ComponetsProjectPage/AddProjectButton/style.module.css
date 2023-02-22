@@ -1,0 +1,91 @@
+.add_project{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    animation: jello-vertical 0.9s both;
+    box-shadow: -4px -4px 45px rgba(67,67,67,0.1),
+    inset 4px 4px 45px rgba(0,0,0,0.9),
+    inset -4px -4px 45px rgba(67,67,67,0.9),
+    4px 4px 45px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_project button{
+    padding: 9px 28px;
+    background: linear-gradient(transparent,black);
+    font-weight: 700;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: -2px 26px 37px -6px #fff;
+}
+.add_project .active{
+    opacity: 1;
+    animation: bounce-top 1.2s both;
+
+}
+@keyframes bounce-top {
+    0% {
+        transform: translateY(-120px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        transform: translateY(-24px);
+        animation-timing-function: ease-in;
+    }
+    65% {
+        transform: translateY(-12px);
+        animation-timing-function: ease-in;
+    }
+    82% {
+        transform: translateY(-6px);
+        animation-timing-function: ease-in;
+    }
+    93% {
+        transform: translateY(-4px);
+        animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+
+@keyframes jello-vertical {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+        transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}

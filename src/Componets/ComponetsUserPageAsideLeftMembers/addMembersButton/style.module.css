@@ -1,0 +1,22 @@
+.add_members{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(transparent,rgb(0,0,0,0.7));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0.2rem;
+}
+.add_members span{
+    font-size: 40px;
+    color: white;
+    margin: 0 0.2rem;
+}
+.add_members p {
+    color: white;
+    font-size: 14px;
+}
+.add_members p:hover{
+    color: blue;
+    cursor: pointer;
+}

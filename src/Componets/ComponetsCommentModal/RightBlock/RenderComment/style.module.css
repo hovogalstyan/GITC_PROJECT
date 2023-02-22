@@ -1,0 +1,21 @@
+.render_comment{
+    width: 100%;
+    height: 78.5%;
+    overflow-y: scroll;
+    background: white;
+}
+.coment_item{
+    padding: 0.3rem 0.5rem;
+    background: rgb(0,0,0,0.1);
+    margin: 0.1rem 0;
+}
+.coment_item span{
+    display: block;
+    text-align: right;
+    font-family: 'Paprika',sans-serif;
+}
+
+.coment_item   p{
+    max-width:524px;
+    word-wrap:break-word;
+}

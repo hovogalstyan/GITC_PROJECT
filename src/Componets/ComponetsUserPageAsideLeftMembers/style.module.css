@@ -1,0 +1,23 @@
+.members{
+    width: 19%;
+    height: 92vh;
+    background: linear-gradient(transparent,#464e59 10%);
+    padding: 1rem 0;
+    overflow-y: scroll;
+}
+.members .title{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    line-height: 35px;
+    padding: 0 0.8rem;
+}
+.members::-webkit-scrollbar{
+    width: 1px;
+}
+
+.members::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,blue);
+}

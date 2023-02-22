@@ -1,0 +1,23 @@
+.left_block{
+    width: 45%;
+    height: 100%;
+    padding:  0  0.2rem;
+    margin-top: -8px;
+}
+.left_block div{
+     padding: 1rem 0.7rem;
+     background: white;
+     margin: 0.5rem 0;
+     text-align: center;
+     box-shadow: 0px 0px 15px -3px #000000;
+}
+.left_block div label{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Paprika',sans-serif;
+}
+.left_block div p{
+  border-bottom: 1px solid #000000;
+  text-align: left;
+  font-size: 17px;
+}

@@ -1,0 +1,32 @@
+.add_comment{
+    width: 100%;
+    margin-top: 1%;
+    height: 19%;
+    background: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_comment textarea{
+    width: 80%;
+    height: 100%;
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    border: 1px solid #000000;
+}
+.add_comment textarea::placeholder{
+    font-family: 'Paprika',sans-serif;
+    color: black;
+}
+.add_comment button{
+    display: block;
+    background: blue;
+    width: 20%;
+    padding: 35px 0;
+    cursor: pointer;
+    color: white;
+    font-family: 'Paprika',sans-serif;
+    border: none;
+}

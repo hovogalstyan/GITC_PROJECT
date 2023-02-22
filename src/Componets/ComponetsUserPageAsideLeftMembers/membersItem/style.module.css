@@ -1,0 +1,67 @@
+.members_block{
+    width: 100%;
+}
+.members_item{
+    display: flex;
+    padding: 0.8rem 0.5rem;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+}
+.members_item span{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(transparent,blue);
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 23px;
+
+}
+
+.members_item  p{
+    margin-left: 0.8rem;
+    color: white;
+}
+.icon_block{
+    width: 100px;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+}
+.icon_block small{
+    font-size: 19px;
+    color: white;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.icon_block small:nth-child(1){
+    position: absolute;
+    transform: rotate(360deg);
+    right: -100%;
+    transition: all 0.4s;
+}
+.icon_block small:nth-child(2){
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    transform: rotate(360deg);
+    right: -100%;
+    top: -2px;
+    transition: all 0.7s;
+}
+
+.members_item:hover{
+    background: linear-gradient(transparent,black);
+}
+.members_item:hover .icon_block small:nth-child(1){
+    right:  55px;
+    transform: rotate(0deg);
+}
+.members_item:hover .icon_block small:nth-child(2){
+    right:  20px;
+    transform: rotate(0deg);
+    font-size: 22px;
+}

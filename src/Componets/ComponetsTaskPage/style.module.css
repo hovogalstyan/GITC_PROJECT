@@ -1,0 +1,15 @@
+.task_page{
+    width: 81%;
+    height: 92vh;
+    background: lightyellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+.clos_modal{
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}

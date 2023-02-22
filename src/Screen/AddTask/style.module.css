@@ -1,0 +1,97 @@
+.add_task{
+    position: fixed;
+    top: -100%;
+    left: -100%;
+    right: 0;
+    height: 550px;
+    width: 700px;
+    margin: 0 auto;
+    background:  black;
+    padding: 1rem 1rem;
+}
+.add_task h2{
+    text-align: center;
+    font-family: 'Paprika',sans-serif;
+    color: white;
+
+}
+.add_task .input_style{
+    width: 100%;
+    margin-top: 0.3rem;
+}
+.add_task .input_style input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #000000;
+    outline: none;
+    padding: 0 0.3rem;
+}
+.add_task .input_style input::placeholder{
+    color: black;
+    font-family: 'Paprika',sans-serif;
+}
+
+.add_task textarea{
+    width: 100%;
+    height: 250px;
+    outline: none;
+    border: 2px solid #000000;
+    margin: 0.3rem 0;
+    padding: 0.1rem 0.3rem;
+    font-size: 14px;
+    resize: none;
+}
+.add_task textarea::placeholder{
+    color: black;
+    font-family: 'Paprika',sans-serif;
+}
+.add_task .bottom_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.3rem;
+}
+.add_task .bottom_block div{
+    width: calc(100% / 3 - 5px);
+}
+.add_task .bottom_block div label{
+    color: white;
+}
+.add_task select{
+    width: 100%;
+    font-size: 16px;
+    height: 35px;
+    background: #0080ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.add_task input[type="date"]{
+    width: 100%;
+    height: 35px;
+    background-color: #0080ff;
+    padding: 15px;
+    font-family: 'Paprika',sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.add_task button{
+    display: block;
+    margin: 2rem auto;
+    padding: 12px 45px;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.active_task{
+    top: 165px;
+    left: 0;
+}
